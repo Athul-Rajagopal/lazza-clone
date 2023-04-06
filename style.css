@@ -1,0 +1,61 @@
+
+
+
+
+.absolute-button {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    z-index: 2;
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: transparent;
+
+
+  }
+
+#search-bar1 {
+  position: absolute;
+  right: 7%;
+  top: 70px;
+}
+
+#search-bar1 input {
+  background: #4c4c4c;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    width: 94%;
+}
+
+.first{
+  position: fixed;
+  bottom: 18px;
+  right: 7px;
+
+}
+#first{
+
+  width: 107px;
+  height: 99px;
+}
+  .imgtest{
+    border-radius: 55%;
+    width: 4em;
+    height: 4em;
+  }
+  @media (max-width: 767px) {
+    .test {
+      padding-top: 60px;
+    }
+  }
+  @media (min-width: 350px) {
+    .test {
+      padding-top: 90px;
+    }
+  }

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazza-clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&amp;display=swap" rel="stylesheet">
+   <link rel="icon" href="img/lazza-simple.jpeg">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg    navbar-dark fixed-top " style="padding-left: 3em; background-color: black;">
+    <img class="navbar-brand "  src="img/lazza.jpeg" alt="" width="120" >
+
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+   
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link  "  href="#">PRODUCTS</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#">OFFERS</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item active " >
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+        <br>
+       
+       
+      </ul>
+    </div>
+      <div >
+      <img onclick="find()" ondblclick="hide()" id="search-bar" class="navbar-brand" src="	https://lazza.co.in/assets/images/search.png" alt="" style="width: 23px;" >
+      <img class="navbar-brand" src="	https://lazza.co.in/assets/images/cart.png" alt="" style="width: 23px;" >
+      <img class="navbar-brand" src="https://lazza.co.in/assets/images/account.png" alt="" style="width: 23px;" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="search-bar1" style="display:none">
+        <input type="text" placeholder="search product">
+      </div>
+
+    </div>
+
+   
+    
+  </nav>
+  
+
+
+  
+
+
+
+
+
+  <div id="carouselExampleIndicators " class="carousel slide"  data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 img-fluid  test"  src="img/treasure.jpeg" alt="First slide">
+      </div>
+      
+      
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <br>
+<br>
+
+<button onclick="pop();" type="button" class="absolute-button rounded-circle first" ><img class="imgtest" id="first" src="	https://embed.tawk.to/_s/v4/assets/images/attention-grabbers/168-r-br.svg" alt=""></button>
+<button onclick="pop();" type="button" class="absolute-button rounded-circle " ><img class="imgtest" src="img/cha.png
+  " alt=""></button>
+
+
+  <div class="container moodscontainer ">
+
+  <div class="row w-100 text-center  "  >
+    <div class="col-md-12 " ><h1 style="font-weight: 400;">WIDE RANGE OF OUR PRODUCTS</h1></div>
+    <div class="col-md-4">
+      <img src="img/img1.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>BASIC SERIES</h3>
+    </div>
+    <div class="col-md-4">
+      <img src="img/img2.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>INDULGENCE SERIES</h3>
+    </div>
+    <div class="col-md-4">
+      <img src="img/img3.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>PREMIUM SERIES</h3>
+    </div>
+  </div>
+  
+</div>
+<div class="container moodscontainer ">
+
+  <div class="row w-100 text-center  "  >
+    
+    <div class="col-md-4">
+      <img src="img/img4.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>ETHNIC SERIES</h3>
+    </div>
+    <div class="col-md-4">
+      <img src="img/img5.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>NATURAL SERIES</h3>
+    </div>
+    <div class="col-md-4">
+      <img src="img/img6.jpeg" alt="" class="img-fluid"><h3 style="font-weight: 400";>BOUTIQUE SERIES</h3>
+    </div>
+  </div>
+  
+</div>
+
+<br>
+<br>
+<br>
+<section class="offersx" style="background-color:#000;">
+  <div class="container w-100">
+<img class="img-fluid" src="https://lazza.co.in/admin/uploads/banner/1a.jpg" style="width: 100%;">
+</div>
+</section>
+
+<section class="party" style="background-color:#be9509; ">
+
+<div class="container w-100 p-4" >
+  <img src="img/awesome.jpeg" style="width: 100%; ">
+
+
+</div>
+</section>
+<footer class="offersx" style="background-color:#000; border-bottom: solid 1px rgba(255, 255, 255, 0.597);">
+
+
+
+  <div class="container" style="background-color:#000;">
+    <div class="row" style="padding-top: 1em;">
+      <div class="col-md-2 ">
+        <div class="footer_inner">
+            <img src="https://lazza.co.in/assets/images/simons.png" style="width: 9em;padding-top: 2em;padding-left: ;">
+        </div>
+    </div>
+  
+  
+      <div class="col-md-2">
+        <div class="footer_inner">
+            <h5 style="font-weight:bold;color:#bd9408;">Help</h5>
+            <p style="color:#bd9408;" >Track Your oder</p>
+            <p style="color:#bd9408;">Chat with Us</p>
+            <p style="color:#bd9408;">Support</p>
+  
+  
+  
+            
+        </div>
+    </div>
+  
+   
+  
+  
+  <div class="col-md-2">
+    <div class="footer_inner">
+        <h5 style="font-weight:bold; color:#bd9408; ">ABOUT US</h5>
+            <p style="color:#bd9408;" >Our History</p>
+            <p style="color:#bd9408;" >Privacy Policy</p>
+            <p style="color:#bd9408;" >Cancellation Policy</p>
+  
+  
+       
+    </div>
+  </div>
+  
+  <div class="col-md-2">
+    <div class="footer_inner">
+        <h5 style="font-weight:bold; color:#bd9408;">PRODUCTS</h5>
+        <p style="color:#bd9408;" >Our Products</p>
+          <p style="color:#bd9408;">Offers</p>
+          <p style="color:#bd9408;" >About Us</p>
+          <p style="color:#bd9408;" >Contact Us</p>
+  
+  
+  
+  
+      
+    </div>
+  </div>
+  
+  <div class="col-md-2">
+    <div class="footer_inner middle">
+        <h5 style="font-weight:bold; color:#bd9408;">CONTACT US</h5>
+        <p><a style="color:#bd9408;" href="tel:+919946037777">9946037777</a></p>
+        <p style="color: #bd9408;" >support@lazza.co.in</p>
+        <span><img style="width: 2em;" src="https://lazza.co.in/assets/images/fb.png">
+            <img style="width: 2em;"  src="https://lazza.co.in/assets/images/insta.png">
+            <img style="width: 2em;"  src="https://lazza.co.in/assets/images/pin.png">
+    </span></div>
+  </div>
+  
+  <div class="col-md-2">
+    <div class="footer_inner middle" style=" padding-top: 2em;">
+        <img class="img-fluid" style="width:10em"  src="img/lazza.jpeg">
+    </div>
+  </div>
+  
+  </footer>
+
+
+
+  <footer class="offersx " style="background-color: black;">
+    <div class="container-fluid " >
+  <div class="row text-white d-flex justify-content-between align-items-center p-3">
+    <div class="col-md-6 col-6" style="color:#bd9408;" ><span>&#169;Lazza Ice Creams - 2022</span></div>
+    <div class="col-md-6 col-6 d-flex justify-content-end" style="color:#bd9408;"><span>Site Powered By Igen Software Solutions</span></div>
+
+
+    
+  </div>
+</div>
+</div>
+</footer>
+
+<script>
+  function pop(){
+    alert("OPPS THE SITE IN MANINTAINANCE WORK THIS OPTION CURRENTLY NOT WORKING");
+  }
+
+  function find(){
+    document.getElementById("search-bar1").style.display = "block";
+    
+  }
+  function hide(){
+    document.getElementById("search-bar1").style.display = "none";
+    
+  }
+  
+  
+  
+</script>
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
